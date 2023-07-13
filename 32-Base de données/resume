@@ -1,0 +1,15 @@
+ JDBC  signie  Java DataBase Connectivity .
+ JDBC permet à des programmes Java de communiquer avec des bases de données.
+ Une base de données est un système de chiers stockant des informations regroupées
+dans des tables.
+ Vous pouvez interroger une base de données grâce au langage SQL.
+ Il existe plusieurs types de drivers JDBC à utiliser selon la façon dont vous souhaitez
+vous connecter à la BDD.
+ Pour vous connecter à votre BDD, vous devez utiliser l'objet Connection fourni par
+l'objet DriverManager.
+ Celui-ci prend en paramètre une URL de connexion permettant d'identier le type
+de base de données, l'adresse du serveur et le nom de la base à interroger, en plus
+du nom d'utilisateur et du mot de passe de connexion.
+ Si une erreur survient pendant la connexion, une exception est levée
+ Les recherches se font via les objets Statement et ResultSet.
+ L'objet Statement stocke et exécute la requête SQL.

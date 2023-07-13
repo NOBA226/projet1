@@ -1,0 +1,14 @@
+ System : ceci correspond à l'appel d'une classe qui se nomme  System . C'est une
+classe utilitaire qui permet surtout d'utiliser l'entrée et la sortie standard, c'est-à-dire
+la saisie clavier et l'achage à l'écran.
+ out : objet de la classe System qui gère la sortie standard.
+print : méthode qui écrit dans la console le texte passé en paramètre
+On peut acher des messages dans la console grâce à ces instructions :
+ System.out.println, qui ache un message avec un saut de ligne à la n ;
+ System.out.print, qui ache un message sans saut de ligne.
+a lecture des entrées clavier se fait via l'objet Scanner.
+ Ce dernier se trouve dans le package java.util que vous devrez importer.
+ Pour pouvoir récupérer ce vous allez taper dans la console, vous devrez initialiser
+l'objet Scanner avec l'entrée standard, System.in.
+ Il y a une méthode de récupération de données pour chaque type (sauf les char) :
+nextLine() pour les String, nextInt() pour les int. . .

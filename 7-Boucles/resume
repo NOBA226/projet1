@@ -1,0 +1,41 @@
+Le rôle des boucles est de répéter un certain nombre de fois les mêmes opérations.
+Tous les programmes, ou presque, ont besoin de ce type de fonctionnalité.
+
+La boucle while
+Décortiquons précisément ce qui se passe dans une boucle. Pour ce faire, nous allons
+voir comment elle se construit.
+Une boucle commence par une déclaration : ici while. Cela veut dire, à peu de chose
+près,  tant que . Puis nous avons une condition : c'est elle qui permet à la boucle
+de s'arrêter. Une boucle n'est utile que lorsque nous pouvons la contrôler, et donc
+lui faire répéter une instruction un certain nombre de fois. C'est à ça que servent les
+conditions. Ensuite nous avons une ou plusieurs instructions : c'est ce que va répéter
+notre boucle 1
+!
+while (/* Condition */)
+{
+//Instructions à répéter
+}
+
+La boucle do... while
+Puisque je viens de vous expliquer comment fonctionne une boucle while, je ne vais
+pas vraiment m'attarder sur la boucle do... while. En eet, ces deux boucles ne sont
+pas cousines, mais plutôt s÷urs. Leur fonctionnement est identique à deux détails près.
+do{
+//blablablablablablablabla
+}while(a < b);
+
+
+La boucle for
+Cette boucle est un peu particulière puisqu'elle prend tous ses attributs dans sa condition et agit en conséquence. Je m'explique : jusqu'ici, nous avions fait des boucles
+avec :
+ déclaration d'une variable avant la boucle ;
+ initialisation de cette variable ;
+ incrémentation de celle-ci dans la boucle.
+Eh bien on met tout ça dans la condition de la boucle for 3
+, et c'est tout. Mais je sais
+bien qu'un long discours ne vaut pas un exemple, alors voici une boucle for sous vos
+yeux ébahis :
+for(int i = 1; i <= 10; i++)
+{
+System.out.println("Voici la ligne "+i);
+}

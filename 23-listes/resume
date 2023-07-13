@@ -1,0 +1,5 @@
+s appartenant à la catégorie List sont, pour simplier, des tableaux extensibles à volonté. On y trouve les objets Vector, LinkedList et ArrayList.
+Vous pouvez y insérer autant d'éléments que vous le souhaitez sans craindre de dépasser
+la taille de votre tableau.
+Ils fonctionnent tous de la même manière : vous pouvez récupérer les éléments de la
+liste via leurs indices. De plus, les List contiennent des objets.

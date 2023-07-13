@@ -1,0 +1,9 @@
+Une variable est un élément qui stocke des informations de toute sorte en mémoire : des
+chiffres, des résultats de calcul, des tableaux, des renseignements fournis par l'utilisateur
+
+Les variables sont essentielles dans la construction de programmes informatiques.
+ On aecte une valeur dans une variable avec l'opérateur égal ( = ).
+ Après avoir aecté une valeur à une variable, l'instruction doit se terminer par un
+point-virgule ( ; ).
+ Vos noms de variables ne doivent contenir ni caractères accentués ni espaces et
+doivent, dans la mesure du possible, respecter la convention de nommage Java

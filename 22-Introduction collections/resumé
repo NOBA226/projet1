@@ -1,0 +1,9 @@
+Une collection permet de stocker un nombre variable d'objets.
+ Il y a principalement trois types de collection : les List, les Set et les Map.
+ Chaque type a ses avantages et ses inconvénients.
+ Les Collection stockent des objets alors que les Map stockent un couple clé - valeur.
+ Si vous insérez fréquemment des données en milieu de liste, utilisez une LinkedList.
+ Si vous voulez rechercher ou accéder à une valeur via une clé de recherche, optez
+pour une collection de type Map.
+ Si vous avez une grande quantité de données à traiter, tournez-vous vers une liste de
+type Set

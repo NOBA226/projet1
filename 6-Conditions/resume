@@ -1,0 +1,72 @@
+Les conditions sont une autre notion fondamentale de la programmation.
+En effet, ce qui va être développé ici s'applique à énormément de langages de programmation, et pas seulement à Java.
+
+La structure if... else
+Avant de pouvoir créer et évaluer des conditions, vous devez savoir que pour y parvenir,
+nous allons utiliser ce qu'on appelle des opérateurs logiques. Ceux-ci sont surtout utilisés lors de conditions (si [test] alors [faire ceci]) pour évaluer diérents cas possibles.
+Voici les diérents opérateurs à connaître :
+  ==  : permet de tester l'égalité.
+  !=  : permet de tester l'inégalité.
+  <  : strictement inférieur.
+  <=  : inférieur ou égal.
+  >  : strictement supérieur.
+  >=  : supérieur ou égal.
+  &&  : l'opérateur et. Il permet de préciser une condition.
+  ||  : le ou. Même combat que le précédent.
+  ? :  : l'opérateur ternaire. 
+
+La structure de ces conditions ressemble à ça :
+
+if(//condition)
+{
+... //Exécution des instructions si la condition est remplie
+}
+else
+{
+... //Exécution des instructions si la condition n'est pas remplie
+}
+
+
+La structure switch
+Le switch est surtout utilisé lorsque nous voulons des conditions  à la carte . Prenons
+l'exemple d'une interrogation comportant deux questions : pour chacune d'elles, on peut
+obtenir uniquement 0 ou 10 points, ce qui nous donne au final trois notes et donc trois
+appréciations possibles, comme ceci.
+ 0/20 : tu peux revoir ce chapitre, petit Zéro !
+ 10/20 : je crois que tu as compris l'essentiel ! Viens relire ce chapitre à l'occasion.
+ 20/20 : bravo !
+Dans ce genre de cas, on utilise un switch pour éviter des else if à répétition et pour
+alléger un peu le code.
+Je vais vous montrer comment se construit une instruction switch ; puis nous allons
+l'utiliser tout de suite après.
+/*
+Syntaxe
+switch (/*Variable*/)
+{
+case /*Argument*/:
+/*Action*/;
+break;
+default:
+/*Action*/;
+}
+*/
+
+Voici un exemple de switch que vous pouvez essayer :
+int note = 10; //On imagine que la note maximale est 20
+switch (note)
+{
+case 0:
+System.out.println("Ouch !");
+break;
+case 10:
+System.out.println("Vous avez juste la moyenne.");
+break;
+case 20:
+System.out.println("Parfait !");
+break;
+default:
+System.out.println("Il faut davantage travailler.");
+}
+
+
+

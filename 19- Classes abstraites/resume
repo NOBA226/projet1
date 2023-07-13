@@ -1,0 +1,10 @@
+Une classe abstraite est quasiment identique à une classe normale. Oui, identique aux
+classes que vous avez maintenant l'habitude de coder. Cela dit, elle a tout de même
+une particularité : vous ne pouvez pas l'instancier !
+ Une classe est dénie comme abstraite avec le mot clé abstract.
+ Les classes abstraites sont à utiliser lorsqu'une classe mère ne doit pas être instanciée.
+ Une classe abstraite ne peut donc pas être instanciée.
+ Une classe abstraite n'est pas obligée de contenir de méthode abstraite.
+ Si une classe contient une méthode abstraite, cette classe doit alors être déclarée
+abstraite.
+ Une méthode abstraite n'a pas de corps

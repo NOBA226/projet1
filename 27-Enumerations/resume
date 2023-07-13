@@ -1,0 +1,6 @@
+Une énumération est une classe contenant une liste de sous-objets.
+ Une énumération se construit grâce au mot clé enum.
+ Les enum héritent de la classe java.lang.Enum.
+ Chaque élément d'une énumération est un objet à part entière.
+ Vous pouvez compléter les comportements des objets d'une énumération en ajoutant
+des méthodes.

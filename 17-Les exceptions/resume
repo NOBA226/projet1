@@ -1,0 +1,27 @@
+
+Voici encore une notion très importante en programmation.
+Une exception est une erreur se produisant dans un programme qui conduit le plus
+souvent à l'arrêt de celui-ci.
+Il vous est sûrement déjà arrivé d'obtenir un gros message aché en rouge dans la console
+d'Eclipse : eh bien, cela a été généré par une exception. . . qui n'a pas été capturée. Le fait
+de gérer les exceptions s'appelle aussi la capture d'exception !
+Le principe consiste à repérer un morceau de code (par exemple, une division par zéro) qui
+pourrait générer une exception, de capturer l'exception correspondante et enn de traiter
+celle-ci, c'est-à-dire d'acher un message personnalisé et de continuer l'exécution.
+ Lorsqu'un événement que la JVM ne sait pas gérer apparaît, une exception est levée
+(exemple : division par zéro). Une exception correspond donc à une erreur.
+ La superclasse qui gère les exceptions s'appelle Exception.
+ Vous pouvez créer une classe d'exception personnalisée : faites-lui hériter de la classe
+Exception.
+ L'instruction qui permet de capturer des exceptions est le bloc try{} catch{}.
+ Si une exception est levée dans le bloc try, les instructions gurant dans le bloc
+catch seront exécutées pour autant que celui-ci capture la bonne exception levée.
+ Vous pouvez ajouter autant de blocs catch que vous le voulez à la suite d'un bloc
+try, mais respectez l'ordre : du plus pertinent au moins pertinent.
+ Dans une classe objet, vous pouvez prévenir la JVM qu'une méthode est dite  à
+risque  grâce au mot clé throws.
+ Vous pouvez dénir plusieurs risques d'exceptions sur une même méthode. Il sut
+de séparer les déclarations par une virgule.
+ Dans cette méthode, vous pouvez dénir les conditions d'instanciation d'une exception et lancer cette dernière grâce au mot clé throw suivi de l'instanciation.
+ Une instanciation lancée par le biais de l'instruction throw doit être déclarée avec
+throws au préalable !

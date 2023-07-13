@@ -1,0 +1,5 @@
+la notion d'héritage est l'un des fondements
+de la programmation orientée objet. Grâce à elle, nous pourrons créer des classes héritées 1 de nos classes mères 2
+. Nous pourrons créer autant de classes dérivées, par rapport
+à notre classe de base, que nous le souhaitons. De plus, nous pourrons nous servir d'une
+classe dérivée comme d'une classe de base pour élaborer encore une autre classe dérivée

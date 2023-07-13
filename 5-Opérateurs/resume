@@ -1,0 +1,22 @@
+Ce sont ceux que l'on apprend à l'école primaire. . .
+  +  : permet d'additionner deux variables numériques (mais aussi de concaténer
+des chaînes de caractères ! Ne vous inquiétez pas, on aura l'occasion d'y revenir).
+  -  : permet de soustraire deux variables numériques.
+  *  : permet de multiplier deux variables numériques.
+  /  : permet de diviser deux variables numériques (mais je crois que vous aviez
+deviné).
+  %  : permet de renvoyer le reste de la division entière de deux variables de type
+numérique ; cet opérateur s'appelle le modulo.
+int nbre1, nbre2, nbre3; //déclaration des variables
+nbre1 = 1 + 3; //nbre1 vaut 4
+nbre2 = 2 * 6; //nbre2 vaut 12
+nbre3 = nbre2 / nbre1; //nbre3 vaut 3
+nbre1 = 5 % 2; //nbre1 vaut 1, car 5 = 2 * 2 + 1
+nbre2 = 99 % 8; //nbre2 vaut 3, car 99 = 8 * 12 + 3
+nbre3 = 6 % 3; //là, nbre3 vaut 0, car il n'y a pas de reste
+Lorsque vous effectuez des opérations sur des variables, prenez garde à leur type :
+vous pourriez perdre en précision.
+Vous pouvez caster un résultat en ajoutant un type devant celui-ci : (int), (double),
+etc.
+ Prenez garde aux priorités lorsque vous castez le résultat d'opérations, faute de quoi
+ce dernier risque d'être incorrect

@@ -1,0 +1,13 @@
+Un nouveau thread permet de créer une nouvelle pile d'exécution.
+ La classe Thread et l'interface Runnable se trouvent dans le package java.lang,
+aucun import spécique n'est donc nécessaire pour leur utilisation.
+ Un thread se lance lorsqu'on invoque la méthode start().
+ Cette dernière invoque automatiquement la méthode run()
+ Les opérations que vous souhaitez eectuer dans une autre pile d'exécution sont à
+placer dans la méthode run(), qu'il s'agisse d'une classe héritant de Thread ou d'une
+implémentation de Runnable.
+ Pour protéger l'intégrité des données accessibles à plusieurs threads, utilisez le mot
+clé synchronized dans la déclaration de vos méthodes.
+ Un thread est déclaré mort lorsqu'il a dépilé la méthode run() de sa pile d'exécution.
+ Les threads peuvent présenter plusieurs états : NEW, RUNNABLE, BLOCKED, WAITING,
+TIMED_WAITING et TERMINATED

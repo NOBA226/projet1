@@ -1,0 +1,39 @@
+Tous les programmes Java sont composés d'au moins une classe.
+Cette classe doit contenir une méthode appelée main : ce sera le point de démarrage
+du programme.
+Il y a les commentaires unilignes : introduits par les symboles //, ils mettent tout
+ce qui les suit en commentaire, du moment que le texte se trouve sur la même ligne
+que les //.
+
+//Un commentaire
+//Un autre
+//Encore un autre
+
+Il y a les commentaires multilignes : ils sont introduits par les symboles /* et se
+terminent par les symboles */.
+Toutes les instructions
+en Java sont suivies d'un point-virgule.
+
+Expliquons un peu cette ligne de code. Littéralement, elle signife que la méthode print()
+va écrire 'Bonjour tout le monde ! en utilisant l'objet out de la classe System .
+-System : ceci correspond à l'appel d'une classe qui se nomme  System. C'est une
+classe utilitaire qui permet surtout d'utiliser l'entrée et la sortie standard, c'est-à-dire
+la saisie clavier et l'affchage à l'écran.
+-out : objet de la classe System qui gère la sortie standard.
+-print : méthode qui écrit dans la console le texte passé en paramètre
+
+La JVM est le coeur de Java.
+-Elle fait fonctionner vos programmes Java, précompilés en byte code.
+-Les fichiers contenant le code source de vos programmes Java ont l'extension .java.
+- Les fichiers précompilés correspondant à vos codes source Java ont l'extension .class.
+- Le byte code est un code intermédiaire entre celui de votre programme et celui que
+votre machine peut comprendre.
+- Un programme Java, codé sous Windows, peut être précompilé sous Mac et enfin
+exécuté sous Linux.
+- Votre machine ne peut pas comprendre le byte code, elle a besoin de la JVM.
+- Tous les programmes Java sont composés d'au moins une classe.
+- Le point de départ de tout programme Java est la méthode public static void
+main(String[] args).
+- On peut afficher des messages dans la console grâce à ces instructions :
+- System.out.println, qui affiche un message avec un saut de ligne à la fin ;
+- System.out.print, qui affiche un message sans saut de ligne.

@@ -1,0 +1,10 @@
+En programmation, un tableau n'est rien d'autre
+qu'une variable un peu particulière
+ Un tableau est une variable contenant plusieurs données d'un même type.
+ Pour déclarer un tableau, il faut ajouter des crochets [] à la variable ou à son type
+de déclaration.
+ Vous pouvez ajouter autant de dimensions à votre tableau que vous le souhaitez, ceci
+en cumulant des crochets à la déclaration.
+ Le premier élément d'un tableau est l'élément 0.
+ Vous pouvez utiliser la syntaxe du JDK 1.5 de la boucle for pour parcourir vos
+tableaux : for(String str : monTableauDeString).

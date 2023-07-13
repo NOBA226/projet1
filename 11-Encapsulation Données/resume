@@ -1,0 +1,16 @@
+Le principe d'encapsulation
+Voilà, vous venez de construire votre premier objet  maison . Cependant, sans le savoir, vous avez fait plus que ça : vous avez créé un objet dont les variables sont protégées
+de l'extérieur. En eet, depuis l'extérieur de la classe, elles ne sont accessibles que via
+les accesseurs et mutateurs que nous avons déni. C'est le principe d'encapsulation !
+En fait, lorsqu'on procède de la sorte, on s'assure que le fonctionnement interne à
+l'objet est intègre, car toute modication d'une donnée de l'objet est maîtrisée. Nous
+avons développé des méthodes qui s'assurent qu'on ne modie pas n'importe comment
+les variables.
+Prenons l'exemple de la variable nbreHabitants. L'encapsuler nous permet, lors de son
+aectation, de déduire automatiquement la catégorie de l'objet Ville, chose qui n'est
+pas facilement faisable sans encapsulation. Par extension, si vous avez besoin d'eectuer
+des opérations déterminées lors de l'aectation du nom d'une ville par exemple, vous
+n'aurez pas à passer en revue tous les codes source utilisant l'objet Ville : vous n'aurez
+qu'à modier l'objet (ou la méthode) en question, et le tour sera joué.
+Si vous vous demandez l'utilité de tout cela, dites-vous que vous ne serez peut-être
+pas seuls à développer vos logiciels, et que les personnes utilisant vos classes n'ont pas

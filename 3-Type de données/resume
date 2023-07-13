@@ -1,0 +1,54 @@
+Une variable est un élément qui stocke des informations de toute sorte en mémoire : des
+chiffres, des résultats de calcul, des tableaux, des renseignements fournis par l'utilisateur. 
+
+Les variables de type numérique
+- Le type byte (1 octet) peut contenir les entiers entre −128 et +127.
+byte temperature;
+temperature = 64;
+- Le type short (2 octets) contient les entiers compris entre −32768 et +32767.
+short vitesseMax;
+vitesseMax = 32000;
+- Le type int (4 octets) va de −2 × 109 à 2 × 109
+(2 et 9 zéros derrière. . . ce qui fait
+déjà un joli nombre).
+int temperatureSoleil;
+temperatureSoleil = 15600000;
+Remarquez qu'ici, la température est exprimée en kelvins.
+- Le type long (8 octets) peut aller de −9 × 1018 à 9 × 1018 (encore plus gros. . .).
+long anneeLumiere;
+anneeLumiere = 9460700000000000;
+- Le type float (4 octets) est utilisé pour les nombres avec une virgule ottante.
+float pi;
+pi = 3.141592653f;
+- Le type double (8 octets) est identique à float, si ce n'est qu'il contient plus de
+chires derrière la virgule et qu'il n'a pas de suxe.
+double division;
+division = 0.333333333333333333333333333333333333333333334;
+Nous avons aussi des variables stockant un caractère
+- Le type char contient UN caractère stocké entre apostrophes ( ' ' ), comme ceci :
+char caractere;
+caractere = 'A';
+Des variables de type booléen
+- Le type boolean, lui, ne peut contenir que deux valeurs : true (vrai) ou false
+(faux), sans guillemets 2
+.
+boolean question;
+question = true;
+Et aussi le type String
+Le type String permet de gérer les chaînes de caractères, c'est-à-dire le stockage de
+texte.
+Il s'agit d'une variable d'un type plus complexe que l'on appelle objet. Vous verrez que
+celle-ci s'utilise un peu différemment des variables précédentes :
+String phrase;
+phrase = "Titi et Grosminet";
+//Deuxième méthode de déclaration de type String
+String str = new String();
+str = "Une autre chaîne de caractères";
+//La troisième
+
+Les variables sont essentielles dans la construction de programmes informatiques.
+ On aecte une valeur dans une variable avec l'opérateur égal ( = ).
+ Après avoir aecté une valeur à une variable, l'instruction doit se terminer par un
+point-virgule ( ; ).
+ Vos noms de variables ne doivent contenir ni caractères accentués ni espaces et
+doivent, dans la mesure du possible, respecter la convention de nommage Java

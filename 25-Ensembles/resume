@@ -1,0 +1,1 @@
+Le terme Set est une interface présente dans le package java.util. Un ensemble est une interface de collection qui stocke des listes non ordonnées et ne permet pas le stockage d’entités en double. Mathématiquement, l’interface set a trois propriétés. Les éléments de l’Ensemble sont non nuls

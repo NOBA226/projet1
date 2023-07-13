@@ -1,0 +1,2 @@
+Dans cette partie on abordera le protocole UDP(User Datagram Protocol) il permet de communication plus rapide et ne necessite pas formement une connexion.Exemple du cas des jeux videos.
+Lors de l'envoi des paquets si certains sont perdus ils sont automatiquement remplacés.

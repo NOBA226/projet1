@@ -1,0 +1,3 @@
+Ici il s'agira de faire communiquer un serveur avec un client.Chacun pourra envoyer et recevoir des messages.
+On utilisera le protocole TCP il s'occupe de l'envoi des données. 
+ L'acronyme TCP/IP signifie Transmission Control Protocol/Internet Protocol. Il permet aux appareils connectés à Internet de communiquer entre eux via les réseaux

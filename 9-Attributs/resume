@@ -1,0 +1,5 @@
+Toute variable liée à une classe est un attribut de classe
+Si une variable est d´eclar´ee static, tous les objets de la classe
+partageront cette variable. Donc, toute modification d’une variable
+statique dans un objet quelconque de la classe est r´epercut´ee dans
+tous les objets de la classe

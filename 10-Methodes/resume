@@ -1,0 +1,6 @@
+Toute fonction définie dans une classe est une méthode
+Une classe contient donc des variables et des méthodes, qui forment un tout
+Un constructeur est une méthode d'instance qui va se charger de créer un objet et, le cas
+échéant, d'initialiser ses variables de classe ! Cette méthode a pour rôle de signaler à la
+JVM 6 qu'il faut réserver de la mémoire pour notre futur objet et donc, par extension,
+d'en réserver pour toutes ses variables

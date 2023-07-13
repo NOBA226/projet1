@@ -1,0 +1,1 @@
+Les fichiers en Java La classe java.io.File représente les fichiers et les noms des répertoires. Cette classe est utilisée pour la création des fichiers et les répertoires, la recherche des fichiers, la suppression, la modification, etc. L’objet File de java représente le fichier/répertoire actuel sur le disque

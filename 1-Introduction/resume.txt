@@ -1,0 +1,9 @@
+Java est un langage de programmation multiplateforme créé en 1995 par James Gosling chez Sun Microsystems
+JAVA est un langage orienté objet.On y manipule des classes.
+A la base il a ete concu pour les systemes embarques mais 
+java permet notamment de faire du web,du logiciel etc.
+JAVA est rattache a Oracle et est open source.
+Pour commencer le développement en JAVA il faudrait au préalable:
+-Installer le JDK disponible sur la page officielle d'oracle.
+-Installer un editeur de code(Sublime Text,Visual Studio Code) ou un environnement de developpement(Eclipse,Netbeans)
+

@@ -1,0 +1,5 @@
+Les cartes sont un systeme de classes associatifs
+On en a
+ HashMap pas de doublons pas thread safe
+ et
+  TreeMap pas de doublons pas thread safe

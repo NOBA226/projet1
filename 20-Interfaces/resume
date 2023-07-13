@@ -1,0 +1,10 @@
+Une interface est une classe 100 % abstraite.
+ Aucune méthode d'une interface n'a de corps.
+ Une interface sert à dénir un supertype et à utiliser le polymorphisme.
+ Une interface s'implémente dans une classe en utilisant le mot clé implements.
+ Vous pouvez implémenter autant d'interfaces que vous voulez dans vos classes.
+ Vous devez redénir toutes les méthodes de l'interface (ou des interfaces) dans votre
+classe.
+ Le pattern strategy vous permet de rendre une hiérarchie de classes plus souple.
+ Préférez encapsuler des comportements plutôt que de les mettre d'oce dans l'objet
+concerné.

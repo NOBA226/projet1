@@ -1,0 +1,22 @@
+Voici encore un des concepts fondamentaux de la programmation orientée objet : le
+polymorphisme. Ce concept complète parfaitement celui de l'héritage, et vous allez voir
+que le polymorphisme est plus simple qu'il n'y paraît. Pour faire court, nous pouvons
+le dénir en disant qu'il permet de manipuler des objets sans vraiment connaître leur
+type.
+ Une classe hérite d'une autre classe par le biais du mot clé extends.
+ Une classe ne peut hériter que d'une seule classe.
+ Si aucun constructeur n'est déni dans une classe lle, la JVM en créera un et
+appellera automatiquement le constructeur de la classe mère.
+ La classe lle hérite de toutes les propriétés et méthodes public et protected de la
+classe mère.
+ Les méthodes et les propriétés private d'une classe mère ne sont pas accessibles
+dans la classe lle.
+ On peut redénir une méthode héritée, c'est-à-dire qu'on peut changer tout son code.
+ On peut utiliser le comportement d'une classe mère par le biais du mot clé super.
+ Grâce à l'héritage et au polymorphisme, nous pouvons utiliser la covariance des
+variables.
+ Si une méthode d'une classe mère n'est pas redénie ou  polymorphée , à l'appel
+de cette méthode par le biais d'un objet enfant, c'est la méthode de la classe mère
+qui sera utilisée.
+ Vous ne pouvez pas hériter d'une classe déclarée final.
+ Une méthode déclarée final n'est pas redénissable.

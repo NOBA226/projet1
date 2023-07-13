@@ -1,0 +1,22 @@
+Une classe est une structure informatique représentant
+les principales caractéristiques d'un élément du monde réel grâce :
+ à des variables, qui représentent les divers attributs de l'élément que vous souhaitez
+utiliser ;
+ à des méthodes, qui permettent de dénir les comportements de vos éléments.
+Une classe contient donc des variables et des méthodes, qui forment un tout. Voyons
+comment en créer une de toutes pièces !
+
+ Une classe permet de dénir des objets. Ceux-ci ont des attributs (variables d'instance) et des méthodes (méthodes d'instance + accesseurs).
+ Les objets permettent d'encapsuler du code et des données.
+ Le ou les constructeurs d'une classe doivent porter le même nom que la classe et
+n'ont pas de type de retour.
+ L'ordre des paramètres passés dans le constructeur doit être respecté.
+ Il est recommandé de déclarer ses variables d'instance private, pour les protéger
+d'une mauvaise utilisation par le programmeur.
+ On crée des accesseurs et mutateurs (méthodes getters et setters) pour permettre
+une modication sûre des variables d'instance.
+ Dans une classe, on accède aux variables de celle-ci grâce au mot clé this.
+ Une variable de classe est une variable devant être déclarée static.
+ Les méthodes n'utilisant que des variables de classe doivent elles aussi être déclarées
+static.
+ On instancie un nouvel objet grâce au mot clé new

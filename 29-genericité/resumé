@@ -1,0 +1,17 @@
+ La généricité est un concept très utile pour développer des objets travaillant avec
+plusieurs types de données.
+ Vous passerez donc moins de temps à développer des classes traitant de façon identique des données diérentes.
+ La généricité permet de réutiliser sans risque le polymorphisme avec les collections.
+ Cela confère plus de robustesse à votre code.
+ Vous pouvez coupler les collections avec la généricité !
+ Le wildcard (?) permet d'indiquer que n'importe quel type peut être traité et donc
+accepté !
+ Dès que le wildcard (?) est utilisé, cela revient à rendre ladite collection en lecture
+seule !
+ Vous pouvez élargir le champ d'acceptation d'une collection générique grâce au motclé extends.
+ L'instruction ? extends MaClasse autorise toutes les collections de classes ayant
+pour supertype MaClasse.
+ L'instruction ? super MaClasse autorise toutes les collections de classes ayant pour
+type MaClasse et tous ses supertypes !
+ Pour ce genre de cas, les méthodes génériques sont particulièrement adaptées et
+permettent d'utiliser le polymorphisme dans toute sa splendeur !
